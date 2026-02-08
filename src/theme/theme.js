@@ -3,7 +3,7 @@ import { createTheme } from "@mui/material/styles";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#6C63FF", // Primary brand color (matches modern login UIs)
+      main: "#6C63FF", 
     },
     secondary: {
       main: "#00BFA6",
