@@ -29,8 +29,8 @@ const LoginPage = () => {
             display="flex"
             flexDirection="column"
             justifyContent="center"
-            px={{ xs: 5, sm: 6, md: 8 }}
-            py={{ xs: 3, md: 5 }}
+            px={{ xs: 3, sm: 4, md: 6 }}
+            py={{ xs: 2, md: 5 }}
             sx={{
               /* Login button hover */
               "& button[type='submit']": {
@@ -69,6 +69,7 @@ const LoginPage = () => {
               with <strong>Tuga’s App</strong>. Get started for free.
             </Typography>
 
+            {/* ✅ Correct usage: form logic lives ONLY in LoginForm.jsx */}
             <LoginForm onSuccess={() => navigate("/dashboard")} />
             <SocialLogin />
 
@@ -104,11 +105,10 @@ const LoginPage = () => {
                 src="/i.png"
                 alt="illustration"
                 style={{
-                    width: "100%",
-                    maxWidth: 420,
-                    transform: "scale(1.30)",
+                  width: "100%",
+                  maxWidth: 420,
+                  transform: "scale(1.3)",
                 }}
-
               />
 
               <Typography variant="h6">
@@ -127,6 +127,7 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
+
 
 
 
