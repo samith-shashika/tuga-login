@@ -69,7 +69,6 @@ const LoginPage = () => {
               with <strong>Tuga’s App</strong>. Get started for free.
             </Typography>
 
-            {/* ✅ Correct usage: form logic lives ONLY in LoginForm.jsx */}
             <LoginForm onSuccess={() => navigate("/dashboard")} />
             <SocialLogin />
 
