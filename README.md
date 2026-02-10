@@ -71,17 +71,17 @@ This structure separates UI components, pages, Firebase configuration, and theme
 
 ## 🧑‍💻 How to Run Locally
 
-  # Clone repository
-  git clone https://github.com/SamithShashika71/tuga-login.git
-  
-  # Navigate into project
-  cd tuga-login
-  
-  # Install dependencies
-  npm install
-  
-  # Start development server
-  npm run dev
+    # Clone repository
+    git clone https://github.com/SamithShashika71/tuga-login.git
+    
+    # Navigate into project
+    cd tuga-login
+    
+    # Install dependencies
+    npm install
+    
+    # Start development server
+    npm run dev
 
 ---
 
